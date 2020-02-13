@@ -1,0 +1,29 @@
+#include<stdio.h>
+#define num 5
+
+int main(){
+	/*Declarando variables*/
+	const int entero=100; //constante
+	int variable=200; //variable
+	
+	printf("\tPrimeros valores de la variable\n\n");
+	printf("El valor del variable es: %d\n", variable);
+	printf("El valor del constante es: %d\n", entero);
+	printf("El valor del define es: %d\n\n\n", num);
+	
+	variable = 0; //cambio de variable
+	//constante = 1; //cambio de constante
+	#define num 2222 //cambio de macro
+	
+	
+	//segunda impresion
+	printf("\tSegundos valores de la variable\n\n");
+	printf("El valor del variable es: %d\n", variable);
+	printf("El valor del constante es: %d\n", entero);
+	printf("El valor del define es: %d\n", num);
+	
+	
+	
+	return 0; 
+
+}
