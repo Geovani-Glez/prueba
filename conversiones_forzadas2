@@ -1,0 +1,19 @@
+// Conversion forzada
+
+#include <stdio.h> 
+#include <stdlib.h>
+//Variables
+char c = '@';
+int ent = 2;
+float flt = 20.00;
+double dbl = 400.231312434542;
+int main()
+{ 
+printf("Char entre Entero\n");
+printf("%c / %d = %d", c,ent, c/ent);
+printf("\tFloat * Double\n");
+printf("%f * %f = %f\n\n", flt, dbl, flt*dbl);
+printf("\tFloat * Double\n");
+printf("%f * %d = %f\n\n", flt, dbl, flt+dbl);
+return 0;
+}
